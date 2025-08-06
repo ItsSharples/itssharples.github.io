@@ -65,7 +65,7 @@ function signInVisuals() {
 function authenticate() {
     let url = "https://id.twitch.tv/oauth2/authorize";
     let client_id = "kf48fc5oafct9wqb1jf3lrsfurujq2";
-    let redirect_uri = "https://itssharples.github.io/chatbox";
+    let redirect_uri = "https://www.sharples.dev/chatbox";
     let scope = "chat%3Aread";
     let state = Math.random().toPrecision(21).toString(36);
     window.open(url +
