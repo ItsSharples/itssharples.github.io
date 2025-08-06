@@ -20,7 +20,7 @@ jobs:
         with:
           submodules: recursive
       - name: Setup Python
-        uses: actions/setup-python@v2.3.1
+        uses: actions/setup-python@v5.6.0
         with:
           cache: 'pip'
       - name: Install Dependencies
